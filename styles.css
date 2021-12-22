@@ -1,0 +1,67 @@
+.calculator {
+  width: 450px;
+  border: 1px solid black;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  height: 7em;
+}
+
+.output {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: black;
+  color: white;
+  height: 1.75em;
+  font-size: 60px;
+}
+
+.quarter {
+  width: 25%;
+}
+
+.half {
+  width: 50%;
+}
+
+.three-quarters {
+  width: 75%;
+}
+
+.non-symbol {
+  border: 1px solid black;
+  background-color: rgb(144, 144, 144);
+  font-weight: bold;
+}
+
+.symbol {
+  border: 1px solid black;
+  background-color: orange;
+  color: white;
+  font-weight: bold;
+}
+
+.digit {
+  text-align: center;
+  font-size: 35px;
+}
+
+.symbol:hover {
+  background-color: rgb(255, 187, 60);
+}
+
+.non-symbol:hover {
+  background-color: rgb(177, 177, 177);
+}
+
+.symbol:active {
+  background-color: rgb(219, 143, 0);
+}
+
+.non-symbol:active {
+  background-color: rgb(109, 109, 109);
+}
